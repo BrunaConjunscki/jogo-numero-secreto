@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Source+Code+Pro&display=swap');
+
+:root{
+    --font-family: 'Source Code Pro', monospace;
+    --bg-color: #B34180;
+    --primaty-color: #F8A1D1 ;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primaty-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+     font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.box{
+    border: 2px  solid var(--primaty-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--primaty-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--bg-color);
+}
